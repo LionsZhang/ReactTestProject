@@ -31,7 +31,7 @@ $ git push -u origin master -f
 
 $ git pull origin master
 
-$ git push -u origin master
+$ git push -u react_test master
 
 3.若不想merge远程和本地修改，可以先创建新的分支：
 
@@ -40,3 +40,6 @@ $ git branch [name]
 然后push
 
 $ git push -u origin [name]
+git status
+git add .
+git commit -m 

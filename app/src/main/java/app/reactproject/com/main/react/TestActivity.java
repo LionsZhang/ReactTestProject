@@ -1,4 +1,4 @@
-package app.reactproject.com;
+package app.reactproject.com.main.react;
 
 import android.app.Activity;
 import android.content.Intent;

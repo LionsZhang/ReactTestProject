@@ -11,9 +11,9 @@ import com.facebook.soloader.SoLoader;
 import java.util.Arrays;
 import java.util.List;
 
-import reactmodule.CommonReactPackage;
+import app.reactproject.com.main.react.CommonReactPackage;
 
-public class MainApplication extends Application implements ReactApplication {
+public class ReactApp extends Application implements ReactApplication {
 
     private final ReactNativeHost mReactNativeHost = new ReactNativeHost(this) {
         @Override

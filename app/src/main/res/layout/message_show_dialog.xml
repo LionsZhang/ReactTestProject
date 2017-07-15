@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/log_bg_photos">
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/dp_10"
+            android:gravity="center"
+            android:padding="@dimen/dp_4"
+            android:text="标题"
+            android:textColor="@color/text_black"
+            android:textSize="@dimen/sp_16"
+            android:visibility="visible" />
+
+
+        <TextView
+            android:id="@+id/tv_center"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:paddingBottom="10dp"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            android:layout_below="@+id/tv_title"
+            android:paddingTop="10dp"
+            android:text="@string/txt_msg_center"
+            android:textColor="@color/text_black"
+            android:textSize="@dimen/sp_14" />
+
+
+        <View
+            android:id="@+id/line_1"
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:layout_below="@+id/tv_center"
+            android:layout_marginTop="12dp"
+            android:background="@color/select_list_earnings" />
+
+        <TextView
+            android:id="@+id/one_bt"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_48"
+            android:layout_below="@+id/line_1"
+            android:background="@null"
+            android:gravity="center"
+            android:text="立即认证"
+            android:textColor="@color/text_blue"
+            android:textSize="@dimen/sp_14" />
+
+        <LinearLayout
+            android:id="@+id/left_right_rl"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/one_bt"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/left_text"
+                android:layout_width="0dip"
+                android:layout_height="@dimen/dp_48"
+                android:layout_weight="1"
+                android:background="@drawable/dialog_btn_rounded_left"
+                android:gravity="center"
+                android:text="@string/Txt_cancle"
+                android:textColor="@color/text_black"
+                android:textSize="@dimen/sp_14" />
+
+            <View
+                android:layout_width="1px"
+                android:layout_height="@dimen/dp_40"
+                android:layout_marginBottom="@dimen/dp_6"
+                android:layout_marginTop="@dimen/dp_6"
+                android:background="@color/select_list_earnings" />
+
+            <TextView
+                android:id="@+id/right_text"
+                android:layout_width="0dip"
+                android:layout_height="@dimen/dp_48"
+                android:layout_weight="1"
+                android:background="@drawable/dialog_btn_rounded_right"
+                android:gravity="center"
+                android:text="@string/Txt_sure"
+                android:textColor="@color/text_blue"
+                android:textSize="@dimen/sp_14" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

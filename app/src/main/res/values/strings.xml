@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">ReactTestProject</string>
+    <string name="message_center">消息中心</string>
+    <string name="txt_msg_center">消息提示内容</string>
+    <string name="Txt_cancle">取消</string>
+    <string name="Txt_sure">确定</string>
+    <string name="title_activity_f">FActivity</string>
 </resources>
